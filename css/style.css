@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Slider */
+
+#carouselExampleCaptions{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item video, .carousel-item img  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.carousel-item img{
+    opacity: 0.9;
+}
+
+.secondImg-text a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    border-radius: 45px;
+}
+
+.carousel-caption {
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+.carousel-caption h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(2rem, 1em + 7vw, 9rem);
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.carousel-caption h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+    text-shadow: none;
+}
+
+.carousel-caption p{
+    display: inline-block;
+    color: #fff;
+    font-size: clamp(0.8rem, 1em + 1.5vw, 1.4rem);
+    text-shadow:  3px 3px 7px black;
+}
+
+.secondImg-text{
+    display: block;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    width: 40%;
+    text-align: center;
+    color: #fff;
+}
+
+.secondImg-text h1{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    color: #fff;
+    font-size: clamp(4rem, 6vw, 10rem);
+    text-align: center;
+    text-shadow: 4px 4px 4px black;
+    line-height: 1;
+}
+
+.secondImg-text p{
+    font-size: clamp(1.0rem, 6vw, 1.0rem);
+    margin: 1px 1px 1px 3px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.thirdImg-text{
+    display: block;
+    position: absolute;
+    top: 140px;
+    right: 110px;
+    width: 45%;
+    text-align: center;
+    color: #fff;
+}
+
+.thirdImg-text h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(4rem, 6vw, 10rem);
+    line-height: 0.9;
+    text-shadow: -4px -4px  rgb(205, 4, 205),
+                 4px 4px  rgb(114, 219, 253);
+}
+
+.thirdImg-text h4{
+    font-size: clamp(0.5rem, 5vw, 1.4rem);
+}
+
+.thirdImg-text p{
+    font-size: clamp(0.5rem, 5vw, 1.1rem);
+    margin: 1px 1px 1px 3px;
+}
+
+.thirdImg-text a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #fff;
+    padding: 10px 10px;
+    border-radius: 45px;
+}
+
+.botaoInscrever{
+    margin-top: 5px;
+    background-color: transparent;
+    border: none;
+    border-radius: 45px;
+}
+
+.botaoInscrever:hover{
+    background-color: #fff;
+    color: transparent;
+}
+
+@media screen and (max-width: 800px) {
+    .thirdImg-text, .secondImg-text{
+        display: block;
+        position: absolute;
+        margin: 4px;
+        width: 85%;
+        text-align: center;
+        color: #fff;
+        top: 50%;  
+        left: 50%;  
+        transform: translate(-50%, -50%);
+        font-size: 1rem;
+        text-shadow: 2px 2px 15px black;
+    }
+    .secondImg-text a{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .thirdImg-text, .secondImg-text{
+        display: block;
+        position: absolute;
+        width: 85%;
+        text-align: center;
+        color: #fff;
+        margin: 4px;
+        top: 65%;  
+        left: 50%;  
+        transform: translate(-50%, -50%)
+    }
+    .secondImg-text a{
+        font-size: 14px;
+    }
+
+}
+
+/* Voltar aqui para rotate e colocar links no a*/
