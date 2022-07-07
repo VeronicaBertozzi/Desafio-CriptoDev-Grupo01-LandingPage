@@ -9,8 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="../css/style.css">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Roboto:wght@900&family=Russo+One&display=swap"
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200;300;700&display=swap"
     rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -25,7 +26,7 @@
   <header>
 
     <ul class="home-list">
-      <img  class='logo' src="../img/up.png" alt="">
+      <img class='logo' src="../img/up.png" alt="">
       <li class="home-item"><a href="index.html">Home</a></li>
       <li class="home-item"><a href="../formulário de contato js/index.html">Contatos</a></li>
       <li class="home-item"><a href="">Informações</a></li>
@@ -56,23 +57,23 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="../img/blockchain_02-mudarImagem.png" class="d-block w-100" alt="...">
+        <img src="../img/pexels-daniel-dan-7712570.jpg" class="d-block w-100" alt="...">
         <div class="secondImg-text">
           <h1>VOCE SABIA?</h1>
           <p>A <span style="font-weight:bold;">CriptoGama</span> pode ajudar seu time, organização ou projeto, com
             soluções blockchain, ou até outras soluções descentralizadas.</p>
-          <button type="button" class="botaoInscrever"><a href="...">Saiba Mais</a></button>
+          <button type="button" class="botaoInscrever"><a href="#">Saiba Mais</a></button>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="../img/GamaOn.png" class="d-block w-100" alt="...">
+        <img src="../img/GamaOn.png" class="d-block w-100" alt="">
         <div class="thirdImg-text">
           <h1>GAMA<br>ON</h1>
           <h4>A Gama está de olho nas tendências e viemos te convidar para se atualizar também!</h4>
           <p>Venha aprender mais sobre o universo BlockChain com nossa convidada <span
               style="font-weight:bold;">Marianne Salomão</span> na live que vai rolar no dia <span
               style="font-weight:bold;">27/07/2022</span> as 19:30hrs. Você vem?</p>
-          <button type="button" class="botaoInscrever"><a href="...">Se inscreva aqui!</a></button>
+          <button type="button" id="button-pop" class="botaoInscrever"><a href="#">Se inscreva aqui!</a></button>
         </div>
       </div>
     </div>
@@ -124,19 +125,19 @@
           </tr>
           <tr>
             <th>Bitcoin</th>
-            <td> cotação</td>
+            <td>cotação</td>
           </tr>
           <tr>
             <th>Bitcoin</th>
-            <td> cotação</td>
+            <td>cotação</td>
           </tr>
           <tr>
             <th>Bitcoin</th>
-            <td> cotação</td>
+            <td>cotação</td>
           </tr>
         </table>
       </div>
-    </div>
+  </div>
   </section>
 
   <!-- Mapa -->
@@ -154,6 +155,26 @@
     </div>
 
   </section>
+
+  <!--POP UP : INSCRIÇÃO NO EVENTO -->
+  <div class="pop">
+    <div class="popup-wrapper">
+      <div class="popup">
+        <div class="popup-close">
+          x
+        </div>
+        <div class="popup-content">
+          <h2>Faça sua inscrição! </h2>
+          <label for="text"> Nome Completo</label>
+          <input type="textl" placeholder="Digite seu nome completo">
+          <label for="e-mail"> E-mail</label>
+          <input type="e-mail" placeholder="Digite seu melhor e-mail">
+          <button class="popup-submit">Finalizar Inscrição</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!--Footer-->
 
@@ -212,16 +233,24 @@
     </div>
   </div>
 
+
+
+
+
+
+
+
   <!-- Scripts -->
+  <script src="../javaScript/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-  integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-  crossorigin="anonymous"></script>
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-  integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-  crossorigin="anonymous"></script>
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-  crossorigin="anonymous"></script>
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 
 </body>
 
