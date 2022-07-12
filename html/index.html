@@ -11,26 +11,33 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron&family=Inter:wght@200;300;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css ">
   <link rel="icon" type="image/x-icon" href="../img/favicon.png">
 </head>
+
 <body>
 
   <!-- HEADER -->
-
   <header>
-
-    <ul class="home-list">
-      <img class='logo' src="../img/logo.png" alt="">
-      <li class="home-item"><a href="index.html">Home</a></li>
-      <li class="home-item"><a href="../formulário de contato js/index.html">Contatos</a></li>
-      <li class="home-item"><a href="">Informações</a></li>
-    </ul>
-
+    <nav>
+      <img  class='logoimg' src="../img/logo.png" alt="">
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a class="linknav" href="../html/index.html">Início</a></li>
+          <li><a class="linknav" href="../página sobre/index.html">Sobre</a></li>
+          <li><a class="linknav" href="../formulário de contato js/index.html">Contato</a></li>
+        </ul>
+    </nav>
   </header>
 
   <!-- Carrossel -->
@@ -118,87 +125,87 @@
       <h3>TOP 10 maiores Cryptomoedas</h3>
     </div>
     <div class="coins-table">
-    <table class="table table-dark">
-      <thead class="thead-light">
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Coin</th>
-          <th scope="col">Simbolo</th>
-          <th scope="col">Price</th>
-          <th scope="col">Porcentagem</th>
-        </tr>
-      </thead>
-      <tbody id="body-table"> 
-        <tr>
-          <th scope="row">1</th>
-          <td><img src="../img/BTC.png" alt=""> Bitcoin</td>
-          <td class="coin-simbol">BTCBRL</td>
-          <td class="BTCBRL-price td"></td>
-          <td class="BTCBRL-percent td"></td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td><img src="../img/ETHEREUM.png" alt=""> Ethereum</td>
-          <td class="coin-simbol">ETHBRL</td>
-          <td class="ETHBRL-price td"></td>
-          <td class="ETHBRL-percent td"></td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td><img src="../img/TETHER.png" alt=""> Tether</td>
-          <td class="coin-simbol">USDTBRL</td>
-          <td class="USDTBRL-price td"></td>
-          <td class="USDTBRL-percent td"></td>
-        </tr>
-        <tr>
-          <th scope="row">4</th>
-          <td><img src="../img/USD.png" alt=""> USD Coin</td>
-          <td class="coin-simbol">USDCUSDT</td>
-          <td class="USDCUSDT-price td"></td>
-          <td class="USDCUSDT-percent td"></td>
-        </tr>
-        <tr>
-          <th scope="row">5</th>
-          <td><img src="../img/BNB.png" alt=""> BNB</td>
-          <td class="coin-simbol">BNBBRL</td>
-          <td class="BNBBRL-price td"></td>
-          <td class="BNBBRL-percent td"></td>
-        </tr>
-        <tr>
-          <th scope="row">6</th>
-          <td><img src="../img/BUSD.png" alt=""> Binance USD</td>
-          <td class="coin-simbol">BUSDBRL</td>
-          <td class="BUSDBRL-price td"></td>
-          <td class="BUSDBRL-percent td"></td>
-        </tr>
-        <tr>
-          <th scope="row">7</th>
-          <td><img src="../img/XRP.png" alt=""> XRP</td>
-          <td class="coin-simbol">XRPBRL</td>
-          <td class="XRPBRL-price td"></td>
-          <td class="XRPBRL-percent td"></td>
-        </tr>
-        <tr>
-          <th scope="row">8</th>
-          <td><img src="../img/ADA.png" alt=""> Cardano</td>
-          <td class="coin-simbol">ADABRL</td>
-          <td class="ADABRL-price td"></td>
-          <td class="ADABRL-percent td"></td>
-        </tr>
-        <tr>
-          <th scope="row">9</th>
-          <td><img src="../img/SOL.png" alt=""> Solana</td>
-          <td class="coin-simbol">SOLBRL</td>
-          <td class="SOLBRL-price td"></td>
-          <td class="SOLBRL-percent td"></td>
-        </tr>
-        <tr>
-          <th scope="row">10</th>
-          <td><img src="../img/DOGE.png" alt=""> Dogecoin</td>
-          <td class="coin-simbol">DOGEBRL</td>
-          <td class="DOGEBRL-price td"></td>
-          <td class="DOGEBRL-percent td"></td>
-        </tr>
+      <table class="table table-dark">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Moeda</th>
+            <th scope="col">Símbolo</th>
+            <th scope="col">Preço</th>
+            <th scope="col">Porcentagem</th>
+          </tr>
+        </thead>
+        <tbody id="body-table">
+          <tr>
+            <th scope="row">1</th>
+            <td><img src="../img/BTC.png" alt=""> Bitcoin</td>
+            <td class="coin-simbol">BTCBRL</td>
+            <td class="BTCBRL-price td"></td>
+            <td class="BTCBRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td><img src="../img/ETHEREUM.png" alt=""> Ethereum</td>
+            <td class="coin-simbol">ETHBRL</td>
+            <td class="ETHBRL-price td"></td>
+            <td class="ETHBRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td><img src="../img/TETHER.png" alt=""> Tether</td>
+            <td class="coin-simbol">USDTBRL</td>
+            <td class="USDTBRL-price td"></td>
+            <td class="USDTBRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td><img src="../img/USD.png" alt=""> USD Coin</td>
+            <td class="coin-simbol">USDCUSDT</td>
+            <td class="USDCUSDT-price td"></td>
+            <td class="USDCUSDT-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td><img src="../img/BNB.png" alt=""> BNB</td>
+            <td class="coin-simbol">BNBBRL</td>
+            <td class="BNBBRL-price td"></td>
+            <td class="BNBBRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td><img src="../img/BUSD.png" alt=""> Binance USD</td>
+            <td class="coin-simbol">BUSDBRL</td>
+            <td class="BUSDBRL-price td"></td>
+            <td class="BUSDBRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td><img src="../img/XRP.png" alt=""> XRP</td>
+            <td class="coin-simbol">XRPBRL</td>
+            <td class="XRPBRL-price td"></td>
+            <td class="XRPBRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td><img src="../img/ADA.png" alt=""> Cardano</td>
+            <td class="coin-simbol">ADABRL</td>
+            <td class="ADABRL-price td"></td>
+            <td class="ADABRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td><img src="../img/SOL.png" alt=""> Solana</td>
+            <td class="coin-simbol">SOLBRL</td>
+            <td class="SOLBRL-price td"></td>
+            <td class="SOLBRL-percent td"></td>
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td><img src="../img/DOGE.png" alt=""> Dogecoin</td>
+            <td class="coin-simbol">DOGEBRL</td>
+            <td class="DOGEBRL-price td"></td>
+            <td class="DOGEBRL-percent td"></td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -248,14 +255,12 @@
       <ul>
         <li><a href="">Home</a></li>
         <li><a href="">Contato</a></li>
-        <li><a href="">Dowload</a></li>
       </ul>
     </div>
 
     <div class="boxs">
       <h2>Informações</h2>
       <ul>
-        <li><a href="">Blog</a></li>
         <li><a href="">Contato</a></li>
         <li><a href="">Serviços</a></li>
       </ul>
@@ -266,7 +271,6 @@
       <ul>
         <li><a href="">FAQ</a></li>
         <li><a href="">Telefone</a></li>
-        <li><a href="">Chat</a></li>
       </ul>
     </div>
 
@@ -298,14 +302,8 @@
   </div>
 
 
-
-
-
-
-
-
   <!-- Scripts -->
-  <script src="../javaScript/index.js"></script>
+  <script src="../javaScript/popup.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
     integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
     crossorigin="anonymous"></script>
@@ -316,6 +314,7 @@
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
   <script src="../javaScript/cotacao.js"></script>
+  <script src="../javaScript/menunavbar.js"></script>
 </body>
 
 </html>

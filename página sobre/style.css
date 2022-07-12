@@ -121,102 +121,115 @@ nav {
 
 
 
-.container {
-  
-  background-color: #fafafa;
-  border-radius: 10px;
-  justify-content: center;
-  margin: 30px auto;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  width: 400px;
-  max-width: 100%;
-  overflow: hidden;
+
+
+
+
+
+/*SECTION SOBRE*/
+
+
+.sobre-container{
+  height: 100vh;
+    background: url(../img/thirdImg.jpeg) no-repeat;
+    background-size: 100%;
+    background-position: top right;
+}
+.container{
+  margin: 0 5%;
+  display: flex;
 }
 
-.header {
-  background-color: #eee;
-  padding: 20px;
-}
 
-.form {
-  padding: 20px;
+.header-text{
+  max-width: 600px;
+  margin-top: 120px;
 }
-
-.form-control {
-  margin-bottom: 10px;
-  padding-bottom: 20px;
-  position: relative;
+.header-text h1{
+  font-size: 34px;
 }
-
-.form-control label {
+.header-text p{
+  line-height: 18px;
+  font-size: 15px;
+  color: #777;
+}
+.header-text button{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.common-btn{
+  padding: 15px 20px;
+  background: transparent;
+  outline: none;
+  border: 2px solid #d2481e;
+  border-radius: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.circle{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
   display: inline-block;
-  margin-bottom: 5px;
+  background: #d2481e;
+  margin: 15px 0;
+}
+.line{
+  line-height: 18px;
+}
+/*ABOUT*/
+
+#about, #offer{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width: 80%;
+}
+.about-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+.about-text{
+    max-width: 700px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.about-text h2{
+    margin: 50px 0 10px;
+    font-size: 28px;
+    font-style: italic;
 }
 
-.form-control input {
-  border: 2px solid #f0f0f0;
-  display: block;
-  border-radius: 10px;
-  font-size: 14px;
-  width: 100%;
-  padding: 10px;
+.about-text h3{
+    font-size: 20px;
+    font-style: italic;
+    color: #787878;
 }
 
 
-.form-control i {
-  position: absolute;
-  top: 45px;
-  right: 10px;
-  visibility: hidden;
-}
 
-.form-control small {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  visibility: hidden;
-}
 
-.form button {
-  background-color: #12aa40;
-  border: 2px solid #195a2d;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 900;
-  width: 100%;
-  border-radius: 10px;
-  padding: 10px;
-  cursor: pointer
-}
 
-.form button:hover {
-  background-color: #474747;
-}
 
-/* Error and Success */
-.form-control.success input {
-  border-color: #2ecc71;
-}
 
-.form-control.error input {
-  border-color: #e74c3c;
-}
 
-.form-control.success i.fa-check-circle {
-  color: #2ecc71;
-  visibility: visible;
-}
 
-.form-control.error i.fa-exclamation-circle {
-  color: #e74c3c;
-  visibility: visible;
-}
 
-.form-control.error small {
-  visibility: visible;
-  color: #e74c3c;
-}
+
+
+
+
+
+
+
+
+
 
 .footer-menu{
   width: 100%;
