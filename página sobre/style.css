@@ -11,6 +11,8 @@ body {
 
 }
 
+/*header*/
+
 .linknav{
   color: #fff;
   text-decoration: none;
@@ -29,8 +31,6 @@ nav {
   background:#222;
   height: 11vh;
 }
-
-
 
 .nav-list {
   list-style: none;
@@ -118,103 +118,197 @@ nav {
 
 
 
-
-
-
-
-
-
-
-
-/*SECTION SOBRE*/
-
-
-.sobre-container{
-  height: 100vh;
-  background-position: top right;
-  opacity: 0.95;
-}
-.container{
-  margin: 0 5%;
+/*-----sobre-----*/
+#about, #offer{
+  padding: 100px 0;
+  background-color: #222;
+  color: white;
   display: flex;
-}
 
-
-.header-text{
-  color: rgb(24, 23, 23);
-  max-width: 50%;
-  margin-top: 120px;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.header-text h1{
-  font-size: 2.8vw;
+.about-left-col{
+  flex-basis: 50%;
 }
-.header-text p{
-  line-height: 18px;
-  font-size: 1.4vw;
-  color: rgb(43, 43, 43);
+.about-left-col img{
+  width: 80%;
 }
-.header-text button{
-  margin-top: 10%;
-  margin-bottom: 20%;
+.about-right-col{
+  flex-basis: 50%;
+  text-align: right;
 }
-.common-btn{
-  width: 25vh;
-  height: 10vh;
-  background: rgb(24, 173, 37);
-  outline: none;
-  border: 2px solid #ffffff;
-  border-radius: 40px;
-  font-weight: bold;
-  cursor: pointer;
-  margin-bottom: 5%;
-}
-.circle{
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
+.about-text{
+  max-width: 700px;
+  margin-right: 100px;
   display: inline-block;
-  background: #d2481e;
-  margin: 15px 0;
 }
+
+.about-text h1{
+  text-transform: uppercase;
+  padding: 7px;
+}
+
 .line{
   line-height: 18px;
 }
-/*ABOUT*/
-
-#about, #offer{
-    padding: 100px 0;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+.line-1{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #42d21e;
+  display: inline-block;
 }
-.about-left-col{
-    flex-basis: 50%;
+.line-2{
+  width: 400px;
+  height: 2px;
+  background: #42d21e;
+  display: inline-block;
 }
-.about-left-col img{
-    width: 80%;
-}
-.about-right-col{
-    flex-basis: 50%;
-    text-align: right;
-}
-.about-text{
-    max-width: 700px;
-    margin-right: 100px;
-    display: inline-block;
-}
-.about-text h2{
-    margin: 50px 0 10px;
-    font-size: 28px;
-    font-style: italic;
-}
-
-.about-text h3{
-    font-size: 20px;
-    font-style: italic;
-    color: #787878;
+.line-3{
+  width: 280px;
+  height: 2px;
+  background: #42d21e;
+  display: inline-block;
 }
 
 
+/*---Grupo---*/
+#teams{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #222;
+  color: rgb(255, 255, 255);
+
+}
+#teams h1{
+  text-align: center;
+  padding: 5%;
+}
+.teams-row{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.teams-col{
+  flex-basis: 25%;
+  text-align: center;
+}
+.teams-col img{
+  width: 200px;
+}
+.teams-col h4{
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.teams-btn{
+  margin: 80px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.teams-btn .line{
+  text-align: right;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+
+.common-btn{
+  padding: 15px 20px;
+  background: purple;
+  color: white;
+  outline: none;
+  border: 2px solid #fffefe;
+  border-radius: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.video-section{
+  background-color: #222;
+  width: 100vw;
+  text-align: center;
+  color: white;
+  
+}
+
+/* responsivo */
+@media screen and (max-width: 771px){
+  #header{
+      background: none;
+  }
+  .container{
+      margin-right: 50px;
+      margin-left: 50px;
+  }
+  .logo{
+      margin-top: 27px;
+      width: 70px;
+  }
+  .header-text{
+      margin-top: 100px;
+  }
+  .header-text h1{
+      font-size: 25px;
+  }
+  #menuBtn{
+      width: 40px;
+      right: 50px;
+  }
+  .common-btn{
+      padding: 10px 16px;
+  }
+  
+  .about-left-col, .about-right-col{
+      flex-basis: 100%;
+  }
+  .about-text{
+      margin: 50px 50px 0;
+  }
+  .about-text h2{
+      font-size: 18px;
+  }
+  .teams-col{
+      flex-basis: 100%;
+      margin-bottom: 40px;
+  }
+  .teams-btn .line{
+      display: none;
+  }
+  .course-left-col{
+      flex-basis: 100%;
+  }
+  .course-right-col{
+      flex-basis: 100%;
+      margin-top: 70px;
+  }
+  .course-text{
+      max-width: 100%;
+  }
+  .contact-left-col, .contact-right-col{
+      flex-basis: 100%;
+  }
+  .contact-left-col{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  .contact-right-col{
+      margin-top: 50px;
+  }
+  .copyright-text, .footer-logo{
+      flex-basis: 100%;
+  }
+  .link-title{
+      flex-basis: 50%;
+      margin-bottom: 30px;
+  }
+}
 
 
 
@@ -230,7 +324,7 @@ nav {
 
 
 
-
+/*FOOTER*/
 
 
 .footer-menu{
