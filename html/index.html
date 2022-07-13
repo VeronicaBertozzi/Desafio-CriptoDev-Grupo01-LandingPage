@@ -11,34 +11,34 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@400;500;600;700;900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@900&family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="icon" type="image/x-icon" href="../img/favicon.png">
 </head>
-
 <body>
-
-  <!-- HEADER -->
-  <header>
-    <nav>
-      <img  class='logoimg' src="../img/logo.png" alt="">
-        <div class="mobile-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-        <ul class="nav-list">
-          <li><a class="linknav" href="../html/index.html">Início</a></li>
-          <li><a class="linknav" href="../página sobre/index.html">Sobre</a></li>
-          <li><a class="linknav" href="../formulário de contato js/index.html">Contato</a></li>
-        </ul>
-    </nav>
-  </header>
+  <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #1a1a1c;">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img  class='d-inline-block' src="../img/logo.png" alt="" width="75" height="50">
+      </a>
+      <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" class="navbar-toggler" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+          <ul class="navbar-nav ms-auto mb2 mb-lg-0">
+            <li class="nav-item active">
+              <a href="../html/index.html" class="nav-link active">Início</a>
+            </li>
+            <li class="nav-item">
+              <a href="../paginaSobre/index.html" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a href="contatos.html" class="nav-link">Contato</a>
+            </li>
+          </ul>
+      </div>  
+    </div>
+  </nav>
 
   <!-- Carrossel -->
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -52,7 +52,10 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../img/firstImg.jpeg" class="d-block w-100" alt="">
+        <picture>
+          <source media="(max-width: 520px)" srcset="../img/firstImg_celular.jpg">
+          <img src="../img/firstImg.jpeg" class="d-block w-100" alt="">
+        </picture>      
         <div class="firstImg-text">
           <h1>GAMA<br>ON</h1>
           <h4>A Gama está de olho nas tendências e viemos te convidar para se atualizar também!</h4>
@@ -221,7 +224,7 @@
     <div class="embed-responsive embed-responsive-1by1">
       <iframe class="embed-responsive-item"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.7802989529066!2d-46.662879070859084!3d-23.492143769097602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef78f95cc7235%3A0x61152827ec7485fa!2sR.%20Zilda%2C%20879%20-%20Casa%20Verde%20Alta%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002545-001!5e0!3m2!1spt-BR!2sbr!4v1656547313040!5m2!1spt-BR!2sbr"
-        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        width="100%" height="300" style="border:0;" allowfullscreen loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
@@ -303,18 +306,10 @@
 
 
   <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   <script src="../javaScript/popup.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
   <script src="../javaScript/cotacao.js"></script>
-  <script src="../javaScript/menunavbar.js"></script>
 </body>
 
 </html>
