@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
     rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,20 +20,29 @@
 
 <body>
   <header>
-    <nav>
-      <img class='logoimg' src="../img/logo.png" alt="">
-      <div class="mobile-menu">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #1a1a1c;">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img  class='d-inline-block' src="../img/logo.png" alt="" width="75" height="50">
+        </a>
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" class="navbar-toggler" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+            <ul class="navbar-nav ms-auto mb2 mb-lg-0">
+              <li class="nav-item active">
+                <a href="../html/index.html" class="nav-link active">Início</a>
+              </li>
+              <li class="nav-item">
+                <a href="../página sobre/index.html" class="nav-link">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a href="../formulário de contato js/index.html" class="nav-link">Contato</a>
+              </li>
+            </ul>
+        </div>  
       </div>
-      <ul class="nav-list">
-        <li><a class="linknav" href="../html/index.html">Início</a></li>
-        <li><a class="linknav" href="../página sobre/index.html">Sobre</a></li>
-        <li><a class="linknav" href="../formulário de contato js/index.html">Contato</a></li>
-      </ul>
     </nav>
-  </header>
 
   
   <!--Sobre-->
@@ -53,8 +63,7 @@
               o que reduz os riscos e os custos para todos os envolvidos.</p><br><br>
             <div class="line">
               <span class="line-1"></span><br>
-                <span class="line-2"></span><br>
-                <span class="line-3"></span>
+              <span class="line-3"></span>
             </div>
            
         </div>
@@ -93,8 +102,8 @@
 
 <!--Vídeo--> 
 <div class="video-section">
-<h1> Aprenda sobre blockchain e Ethereum</h1>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L9nWJXs-z2A" 
+<h1> Aprenda sobre  Bitcoin e Ethereum</h1>
+<iframe  class ="video" width="560" height="315" src="https://www.youtube.com/embed/L9nWJXs-z2A" 
 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
 clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -162,8 +171,8 @@ clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
   
   </html>
   <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
-
-  <script src="../javaScript/menunavbar.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   </div>
 
 </body>
