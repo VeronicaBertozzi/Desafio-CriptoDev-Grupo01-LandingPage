@@ -1,8 +1,3 @@
-
-Desafio 01 - Academia de CriptoDev
-Grupo 01 - Veronica Bertozzi, Sofia, Laio, Augusto.
-sofia tenório de vasconcelos neves cavcalcanti
-
 # PROJETO GAMA ACADEMY - SITE SOBRE BLOCKCHAIN
 
 Este foi um projeto realizado durante a formação em blockchain conduzida pela Gama Academy e pela blockchain Academy. Sob orientação da professora Marianne Salomão
@@ -16,15 +11,15 @@ Não é necessário nenhum tipo de instalação para rodar este software.
 
 Este projeto foi integralmente desenvolvido por:
 
-* **Sofia Tenório**  - [sofiatenorios](https://github.com/linkParaPerfil)
-* **Veronica Bertozzi** - [fulanodetal](https://github.com/linkParaPerfil)
+* **Sofia Tenório**  - [sofiatenorius](https://github.com/sofiatenorius)
+* **Veronica Bertozzi** - [VeronicaBertozzi](https://github.com/VeronicaBertozzi)
 ## ⚙️ Oganização do projeto e divisão de tarefas.
 
 Organizamos nosso projeto com base na metododologia ágil SCRUM,a ferramenta que utilizamos com o modelo Kanban, foi o trello. Criamos um backlog com todas as atividades que iriamos executar e depois sintetizamos algumas dessas atividades e dividimos.
 
 A medida que nós conseguimos concluir uma atividade, ela passava por uma fase de testes e de revisão, para posteriormente ser categorizada com concluída
 
-"imagem do trello"
+<img src='../treelo.jpeg'>
 
 ## 🛠️ Construído com
  As tecnologias que utilizamos neste projeto :
