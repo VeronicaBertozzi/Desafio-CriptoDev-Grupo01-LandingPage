@@ -8,21 +8,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
       rel="stylesheet"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="style.css" rel="stylesheet">
     <title>Formulário de Contato</title>
 
 </head>
 <body>
   <header>
-
-    <ul class="home-list">
-      <img  class='logo' src="../img/up.png" alt="">
-      <li class="home-item"><a href="../html/index.html">Home</a></li>
-      <li class="home-item"><a href="../formulário de contato js/index.html">Contatos</a></li>
-      <li class="home-item"><a href="">Informações</a></li>
-    </ul>
-
+    <nav>
+      <img  class='logoimg' src="../img/logo.png" alt="">
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a class="linknav" href="../html/index.html">Início</a></li>
+          <li><a class="linknav" href="../página sobre/index.html">Sobre</a></li>
+          <li><a class="linknav" href="../formulário de contato js/index.html">Contato</a></li>
+        </ul>
+    </nav>
   </header>
+
   <section class='form-sec'>
     <div class="container">
         <div class="header">
@@ -65,20 +72,19 @@
           </form>
         </div>
       </section>
+      
       <footer class="footer-menu">
         <div class="boxs">
           <h2>Início</h2>
           <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Contato</a></li>
-            <li><a href="">Dowload</a></li>
           </ul>
         </div>
     
         <div class="boxs">
           <h2>Informações</h2>
           <ul>
-            <li><a href="">Blog</a></li>
             <li><a href="">Contato</a></li>
             <li><a href="">Serviços</a></li>
           </ul>
@@ -89,7 +95,6 @@
           <ul>
             <li><a href="">FAQ</a></li>
             <li><a href="">Telefone</a></li>
-            <li><a href="">Chat</a></li>
           </ul>
         </div>
     
@@ -102,11 +107,30 @@
         </div>
     
       </footer>
+    
+      <div class="footer-social">
+        <img src="../img/logo.png" alt="">
+        <div class="sociais">
+          <div class="social">
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+    
+          <div class="social">
+            <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+          </div>
+    
+          <div class="social">
+            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      
         <script
           src="https://kit.fontawesome.com/f9e19193d6.js"
           crossorigin="anonymous"></script>
     
         <script src="script.js"></script>
+        <script src="../javaScript/menunavbar.js"></script>
     </div>
     
 </body>
