@@ -173,6 +173,44 @@ nav {
     text-shadow:  3px 3px 7px black;
 }
 
+.firstImg-text{
+    display: block;
+    position: absolute;
+    top: 140px;
+    right: 110px;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    height: 50%;
+}
+
+.firstImg-text h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(4rem, 6vw, 10rem);
+    line-height: 0.9;
+    text-shadow: -4px -4px  rgb(205, 4, 205),
+                 4px 4px  rgb(114, 219, 253);
+}
+
+.firstImg-text h4{
+    font-size: clamp(0.5rem, 5vw, 1.4rem);
+}
+
+.firstImg-text p{
+    font-size: clamp(0.5rem, 5vw, 1.1rem);
+    margin: 1px 1px 1px 3px;
+}
+
+.firstImg-text a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #fff;
+    padding: 10px 10px;
+    border-radius: 45px;
+}
+
 .secondImg-text{
     display: block;
     position: absolute;
@@ -209,44 +247,6 @@ nav {
     text-shadow: 2px 2px 4px black;
 }
 
-.thirdImg-text{
-    display: block;
-    position: absolute;
-    top: 140px;
-    right: 110px;
-    width: 50%;
-    text-align: center;
-    color: #fff;
-    height: 50%;
-}
-
-.thirdImg-text h1{
-    font-family: 'Orbitron', sans-serif;
-    font-size: clamp(4rem, 6vw, 10rem);
-    line-height: 0.9;
-    text-shadow: -4px -4px  rgb(205, 4, 205),
-                 4px 4px  rgb(114, 219, 253);
-}
-
-.thirdImg-text h4{
-    font-size: clamp(0.5rem, 5vw, 1.4rem);
-}
-
-.thirdImg-text p{
-    font-size: clamp(0.5rem, 5vw, 1.1rem);
-    margin: 1px 1px 1px 3px;
-}
-
-.thirdImg-text a{
-    text-decoration: none;
-    display: block;
-    color: #fff;
-    font-size: 18px;
-    border: 2px solid #fff;
-    padding: 10px 10px;
-    border-radius: 45px;
-}
-
 .botaoInscrever{
     margin-top: 5px;
     background-color: transparent;
@@ -260,7 +260,7 @@ nav {
 }
 
 @media screen and (max-width: 800px) {
-    .thirdImg-text, .secondImg-text{
+    .firstImg-text, .secondImg-text{
         display: block;
         position: absolute;
         margin: 4px;
@@ -279,7 +279,7 @@ nav {
 }
 
 @media screen and (max-width: 500px) {
-    .thirdImg-text, .secondImg-text{
+    .firstImg-text, .secondImg-text{
         display: block;
         position: absolute;
         width: 85%;
@@ -384,6 +384,15 @@ nav {
 }
 
 /*COINS*/
+table {
+    position: relative;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: 0;
+}
+
 .coins-table {
     background-color: #1a1a1c;
     margin: 0px 45px 45px 45px;
