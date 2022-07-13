@@ -1,6 +1,6 @@
 # PROJETO GAMA ACADEMY - SITE SOBRE BLOCKCHAIN
 
-Este foi um projeto realizado durante a formação em blockchain conduzida pela Gama Academy e pela blockchain Academy. Sob orientação da professora Marianne Salomão
+Este foi um projeto realizado durante a formação em blockchain conduzida pela Gama Academy e pela blockchain Academy. Sob orientação da professora Marianne Salomão.
 
 ### 🔧 Instalação
 
