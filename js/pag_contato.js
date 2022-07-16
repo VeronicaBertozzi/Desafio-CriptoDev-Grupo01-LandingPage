@@ -41,10 +41,10 @@ function checkInputs() {
     setSuccessFor(text);
   }
   
-  const formControls = form.querySelectorAll(".form-control");
+  const formControls = form.querySelectorAll(".form-controls");
 
   const formIsValid = [...formControls].every((formControl) => {
-    return formControl.className === "form-control success";
+    return formControl.className === "form-controls success";
   });
 
   if (formIsValid) {
@@ -60,14 +60,14 @@ function setErrorFor(input, message) {
   small.innerText = message;
 
   // Adiciona a classe de erro
-  formControl.className = "form-control error";
+  formControl.className = "form-controls error";
 }
 
 function setSuccessFor(input) {
   const formControl = input.parentElement;
 
   // Adicionar a classe de sucesso
-  formControl.className = "form-control success";
+  formControl.className = "form-controls success";
 }
 
 function checkEmail(email) {
