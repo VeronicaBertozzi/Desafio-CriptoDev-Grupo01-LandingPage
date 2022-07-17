@@ -155,13 +155,13 @@ class Footer extends HTMLElement {
         <img src="../img/logo.png" alt="">
         <div class="sociais">
           <div class="social">
-            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
           </div>
           <div class="social">
-            <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="https://www.whatsapp.com" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
           </div>
           <div class="social">
-            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
