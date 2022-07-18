@@ -34,6 +34,9 @@ Para ser utilizado como base do projeto foi criado um layout no figma, afim de o
 <img width="3030" alt="Landing Page - Cripto Gama@2x (1)" src="https://user-images.githubusercontent.com/101151964/178727449-998031e5-f8d7-4eff-bc28-591e6cf6b397.png">
 
 ## 🛠️ Preview
+
+Site hospedado no Netlify: https://nimble-tiramisu-a4d814.netlify.app/
+
 ![WhatsApp Image 2022-07-13 at 08 56 14](https://user-images.githubusercontent.com/101151964/178728074-689dce33-c570-42f5-a671-40dc48f5e9e1.jpeg)
 
 Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
