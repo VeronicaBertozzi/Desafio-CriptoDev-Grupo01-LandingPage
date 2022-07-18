@@ -125,14 +125,14 @@ class Footer extends HTMLElement {
         <div class="boxs">
           <h2>Início</h2>
           <ul>
-            <li><a href="../html/index.html">Home</a></li>
-            <li><a href="../html/pag_contato.html">Contato</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pag_contato.html">Contato</a></li>
           </ul>
         </div>
         <div class="boxs">
           <h2>Informações</h2>
           <ul>
-            <li><a href="../html/pag_contato.html">Contato</a></li>
+            <li><a href="pag_contato.html">Contato</a></li>
             <li><a href="">Serviços</a></li>
           </ul>
         </div>
@@ -152,7 +152,7 @@ class Footer extends HTMLElement {
       </footer>
 
       <div class="footer-social">
-        <img src="../img/logo.png" alt="">
+        <img src="img/logo.png" alt="">
         <div class="sociais">
           <div class="social">
             <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
