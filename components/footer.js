@@ -125,14 +125,14 @@ class Footer extends HTMLElement {
         <div class="boxs">
           <h2>Início</h2>
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Contato</a></li>
+            <li><a href="../html/index.html">Home</a></li>
+            <li><a href="../html/pag_contato.html">Contato</a></li>
           </ul>
         </div>
         <div class="boxs">
           <h2>Informações</h2>
           <ul>
-            <li><a href="">Contato</a></li>
+            <li><a href="../html/pag_contato.html">Contato</a></li>
             <li><a href="">Serviços</a></li>
           </ul>
         </div>
