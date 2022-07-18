@@ -88,6 +88,13 @@ body {
 .teams-col{
   flex-basis: 25%;
   text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 550px;
+}
+
+.teams-col p {
+  padding: 15px;
 }
 
 .teams-col img{
@@ -135,7 +142,7 @@ body {
   padding: 15px;
 }
 
-@media screen and (max-width: 771px){
+@media screen and (max-width: 999px){
   #header{
       background: none;
   }
@@ -232,5 +239,12 @@ body {
   .line{
     width: 70vw;
   }
-}
 
+  .teams-col{
+    flex-basis: 25%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 550px;
+  }
+}
